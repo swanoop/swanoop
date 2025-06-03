@@ -1,5 +1,5 @@
 # 💫 About Me:
-🔭 Cybersecurity professional<br>👨‍🎓 MSc Cyber security and forensics | MSc Forensic Science<br>🌱 I’m currently learning cloud pen testing<br>💬 CEH | MBCS | MIET| ISA | <br>⚡ Fun fact - I am lazy but smart
+🔭 Cybersecurity professional<br>👨‍🎓 MSc Cyber security and forensics | MSc Forensic Science<br>🌱 I’m currently learning cloud pen testing<br>💬 CEH | MBCS | MIET | ISA | <br>⚡ Fun fact - I am lazy but smart
 
 
 ## 🌐 Socials:
