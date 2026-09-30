@@ -41,6 +41,13 @@ Alongside my professional work, I develop tools for industrial network analysis,
       <p><code>CAN</code> <code>Telemetry</code> <code>Fault Injection</code> <code>SocketCAN</code> <code>Python</code></p>
     </td>
   </tr>
+  <tr>
+    <td colspan="2" valign="top">
+      <h3><a href="https://github.com/swanoop/ssl-stripping-detector">SSL Stripping Detection Tool</a></h3>
+      <p>An earlier network security project that analyses PCAP files for indicators of HTTPS downgrade and insecure link rewriting. Originally developed in 2023 as an educational packet-analysis tool.</p>
+      <p><code>PCAP</code> <code>PyShark</code> <code>HTTP/HTTPS</code> <code>Tkinter</code> <code>Python</code></p>
+    </td>
+  </tr>
 </table>
 
 ## Areas of practice
