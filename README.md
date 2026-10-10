@@ -1,77 +1,64 @@
 <div align="center">
-  <img src="./assets/ot-security-lifecycle.svg" width="100%" alt="Swanoop Ramakrishnan, OT and ICS Cyber Security Engineer" />
+  <img src="./assets/profile-hero.svg" width="100%" alt="Swanoop Ramakrishnan | OT / ICS Cyber Security Engineer. Schematic of an industrial network from field devices to evidence." />
 </div>
 
-<div align="center">
-  <a href="https://www.linkedin.com/in/swanoop-r/">LinkedIn</a>
-  &nbsp;·&nbsp;
-  <a href="https://medium.com/@rswanoop">Medium</a>
-  &nbsp;·&nbsp;
-  United Kingdom
-</div>
+<p align="center">
+  <a href="https://swanoop.github.io/">Portfolio</a> &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/swanoop-r/">LinkedIn</a> &nbsp;·&nbsp;
+  <a href="https://medium.com/@rswanoop">Writing</a> &nbsp;·&nbsp;
+  <a href="https://github.com/swanoop?tab=repositories">All repositories</a>
+</p>
 
 ## About
 
-I am a Cyber Security Engineer specialising in Operational Technology and Industrial Control Systems. My work covers cyber risk assessment, security strategy, architecture review and engineering assurance for operational systems.
+I'm a cybersecurity engineer working at the intersection of **operational technology, system architecture and security assurance**. My professional work includes OT cyber risk assessments, security requirements, architecture reviews and technical assurance, particularly in rail and other operational-system contexts.
 
-I focus on understanding how a system operates, where it is exposed and what measures are required to manage cyber risk. This includes defining system boundaries and essential functions, reviewing network architecture, developing zones and conduits, assessing threat scenarios and translating standards into practical security requirements.
-
-Alongside my professional work, I develop tools for industrial network analysis, telemetry simulation and security testing. These projects allow me to explore OT security problems through practical engineering, data analysis and controlled experimentation.
-
-## Engineering approach
-
-| Understand | Assess | Engineer | Assure |
-|:---|:---|:---|:---|
-| System boundaries | Threat scenarios | Zones and conduits | Architecture review |
-| Essential functions | Vulnerabilities | Security requirements | Security testing |
-| Assets and interfaces | Likelihood and consequence | Risk treatment | Evidence and residual risk |
+I am interested in the detail behind an assessment: what a system actually does, how its components communicate, which changes matter, and how to demonstrate that a security measure works. I build tools and small test environments to investigate those questions with observable evidence.
 
 ## Selected projects
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/swanoop/OTScope">OTScope</a></h3>
-      <p>Passive industrial network behaviour and security profiling for PCAP and PCAPNG captures.</p>
-      <p><code>PCAP</code> <code>Modbus/TCP</code> <code>IEC 104</code> <code>S7comm</code> <code>Zones &amp; Conduits</code></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/swanoop/RailCAN">RailCAN</a></h3>
-      <p>Correlated CAN telemetry and fault simulation for analysis, demonstrations and controlled test environments.</p>
-      <p><code>CAN</code> <code>Telemetry</code> <code>Fault Injection</code> <code>SocketCAN</code> <code>Python</code></p>
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" valign="top">
-      <h3><a href="https://github.com/swanoop/ssl-stripping-detector">SSL Stripping Detection Tool</a></h3>
-      <p>An earlier network security project that analyses PCAP files for indicators of HTTPS downgrade and insecure link rewriting. Originally developed in 2023 as an educational packet-analysis tool.</p>
-      <p><code>PCAP</code> <code>PyShark</code> <code>HTTP/HTTPS</code> <code>Tkinter</code> <code>Python</code></p>
-    </td>
-  </tr>
-</table>
+### 01 / [OTScope](https://github.com/swanoop/OTScope)
 
-## Areas of practice
+**Passive industrial traffic analysis and behavioural comparison.** Parses PCAP/PCAPNG captures, reconstructs observed assets and communications, examines Modbus/TCP, IEC 60870-5-104 and S7comm activity, and compares traffic against baselines and defined communication policies. Findings remain traceable to packet evidence.
 
-| Cyber risk and assurance | Architecture and resilience | Analysis and testing |
-|:---|:---|:---|
-| OT cyber risk assessment | System boundary and SuC definition | Industrial traffic analysis |
-| Cybersecurity strategy and CSMPs | Architecture and topology review | Threat and vulnerability analysis |
-| Gap and maturity assessment | Zones, conduits and segmentation | Technical assurance |
-| Incident response and continuity planning | Security requirements and risk treatment | Security testing |
+`Python` · `PCAP / PCAPNG` · `Modbus/TCP` · `IEC 104` · `S7comm`
 
-## Standards and frameworks
+### 02 / [OT Network Studio](https://github.com/swanoop/ot-network-studio)
 
-`IEC 62443` · `CLC/TS 50701` · `NCSC CAF` · `UK NIS Regulations` · `ISO 27001` · `NIST SP 800-61`
+**A local-first workspace for OT architecture sketches.** Design networks with industrial components, zones, asset metadata and protocol tags. Includes reusable templates and JSON/PNG exports. It is a design tool, not a network scanner.
 
-## Professional involvement
+`TypeScript / JavaScript` · `Network architecture` · `IEC 62443-style zones` · `Asset inventory`
 
-- ISA UK Section Cybersecurity Chair and Board Member
-- Member of the NCSC ICS Community of Interest, Security Testing Expert Group
-- ISA/IEC 62443 Cybersecurity Fundamentals Specialist
-- ISA/IEC 62443 Cybersecurity Risk Assessment Specialist
-- Member of BCS and the Institution of Engineering and Technology
-- MSc Cybersecurity and Forensics, University of Westminster
+### 03 / [RailCAN](https://github.com/swanoop/RailCAN)
 
-<div align="center">
-  <sub>From system context to security assurance.</sub>
-</div>
+**Synthetic CAN telemetry for repeatable testing.** Simulates linked train signals, journey scenarios and faults with a local dashboard, capture exports, replay and optional SocketCAN output. Uses a deliberately synthetic message layout, not an OEM protocol.
+
+`Python` · `Classical CAN` · `Telemetry` · `Fault injection` · `SocketCAN`
+
+### 04 / [ForteCRA](https://github.com/swanoop/ForteCRA)
+
+**A browser-based EU Cyber Resilience Act self-assessment workspace.** Explore requirement coverage, product-security maturity, evidence references, reporting timelines and exportable assessments. A demonstration tool, not a certification or legal-conformity determination.
+
+`JavaScript` · `Product security` · `EU CRA` · `Local-first`
+
+<sub>Earlier project: <a href="https://github.com/swanoop/ssl-stripping-detector">SSL Stripping Detection Tool</a>, an educational PCAP analysis prototype from 2023 that is no longer actively maintained.</sub>
+
+## Engineering focus
+
+- **Understand the operational system:** system boundaries, essential functions, assets, interfaces and dependencies.
+- **Turn risk into engineering decisions:** threat scenarios, security requirements, segmentation, zones and conduits, and proportionate controls.
+- **Build and examine evidence:** passive traffic analysis, reproducible lab testing, technical reviews, security testing and residual-risk documentation.
+
+**Standards and frameworks:** IEC 62443 · CLC/TS 50701 · NCSC CAF · UK NIS Regulations · ISO/IEC 27001 · NIST SP 800-61
+
+## Community and background
+
+- ISA UK Section Board Member; previously served as Cybersecurity Chair.
+- Member, NCSC ICS Community of Interest Security Testing Expert Group.
+- ISA/IEC 62443 Cybersecurity Fundamentals and Risk Assessment Specialist credentials.
+- Member of BCS and the Institution of Engineering and Technology.
+- MSc Cybersecurity and Forensics, University of Westminster.
+
+---
+
+<sub>Personal projects are independent learning and engineering work. They are not representations of employer or client systems.</sub>

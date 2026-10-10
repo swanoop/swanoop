@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1360" height="360" viewBox="0 0 1360 360" role="img" aria-labelledby="title desc">
+<title id="title">Swanoop Ramakrishnan | OT and ICS Cyber Security Engineer</title>
+<desc id="desc">Minimal dark technical banner with typographic introduction and schematic of industrial networks.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0a141c"/><stop offset="1" stop-color="#121d27"/></linearGradient>
+  <linearGradient id="wash" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#163e46" stop-opacity=".10"/><stop offset="1" stop-color="#4dd5c5" stop-opacity=".16"/></linearGradient>
+  <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse"><path d="M34 0H0V34" fill="none" stroke="#7e9dab" stroke-opacity=".10" stroke-width="1"/></pattern>
+</defs>
+<rect width="1360" height="360" rx="14" fill="url(#bg)"/>
+<rect x="724" y="0" width="636" height="360" fill="url(#grid)"/>
+<path d="M0 0H1360V360H0Z" fill="none" stroke="#334a56" stroke-width="2"/>
+<path d="M58 55H126" stroke="#62d6cf" stroke-width="5" stroke-linecap="round"/>
+<text x="142" y="61" font-family="Arial, Helvetica, sans-serif" fill="#96b1c0" font-size="15" font-weight="700" letter-spacing="3">ENGINEERING / CYBER SECURITY</text>
+<text x="60" y="157" font-family="Arial, Helvetica, sans-serif" fill="#f2f5f4" font-size="61" font-weight="800" letter-spacing="-.9">SWANOOP</text>
+<text x="60" y="226" font-family="Arial, Helvetica, sans-serif" fill="#f2f5f4" font-size="61" font-weight="800" letter-spacing="-.9">RAMAKRISHNAN</text>
+<rect x="60" y="247" width="565" height="1" fill="#36545f"/>
+<text x="60" y="278" font-family="Arial, Helvetica, sans-serif" fill="#76d9d1" font-size="20" font-weight="700" letter-spacing="2">OT / ICS CYBER SECURITY ENGINEER</text>
+<text x="60" y="314" font-family="Arial, Helvetica, sans-serif" fill="#a8bac3" font-size="15" letter-spacing=".5">Risk assessment   /   Secure architecture   /   Engineering assurance   /   Security tooling</text>
+<path d="M690 38V322" stroke="#345360" stroke-width="1" opacity=".8"/>
+<!-- abstract network diagram -->
+<rect x="761" y="57" width="552" height="246" rx="12" fill="url(#wash)" stroke="#325665" stroke-opacity=".7"/>
+<text x="789" y="88" font-family="Arial, Helvetica, sans-serif" fill="#7795a1" font-size="13" font-weight="700" letter-spacing="2.4">INDUSTRIAL NETWORK / OBSERVED FLOWS</text>
+<!-- structured geometry -->
+<path d="M833 158H912 M1004 158H1076 M1168 158H1225 M1076 158V239H1167 M909 158V239H946" stroke="#77b6bd" stroke-opacity=".7" stroke-width="2.5" fill="none"/>
+<path d="M831 158H910 M1078 158H1168" stroke="#6fe0d1" stroke-width="2" stroke-dasharray="5 8"/>
+<circle cx="910" cy="158" r="5" fill="#65d6ca"/><circle cx="1076" cy="158" r="5" fill="#65d6ca"/><circle cx="1076" cy="239" r="5" fill="#65d6ca"/>
+<!-- field node -->
+<rect x="785" y="124" width="100" height="68" rx="8" fill="#142831" stroke="#5a9a9f"/>
+<circle cx="805" cy="143" r="5" fill="none" stroke="#77d4cc" stroke-width="2"/>
+<path d="M802 154H810M796 163H835" stroke="#557f8d" stroke-width="2"/>
+<text x="803" y="180" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#c5d5d9" letter-spacing="1">FIELD</text>
+<!-- controller -->
+<rect x="917" y="124" width="115" height="68" rx="8" fill="#183640" stroke="#76d7d0"/>
+<rect x="934" y="138" width="22" height="22" rx="3" fill="none" stroke="#80e4d8" stroke-width="2"/>
+<path d="M944 138V132M944 166V160M934 149H928M956 149H962" stroke="#80e4d8" stroke-width="2"/>
+<text x="934" y="181" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#d9e6e8" letter-spacing="1">CONTROL</text>
+<!-- monitoring -->
+<rect x="1081" y="124" width="114" height="68" rx="8" fill="#142831" stroke="#5a9a9f"/>
+<path d="M1099 147H1178V164H1099Z M1110 170H1166" fill="none" stroke="#79a5ac" stroke-width="2"/>
+<path d="M1105 159L1120 154L1134 159L1146 143L1161 149L1174 141" fill="none" stroke="#75d6ca" stroke-width="2"/>
+<text x="1099" y="181" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#d2e0e3" letter-spacing="1">MONITOR</text>
+<!-- evidence -->
+<rect x="1169" y="217" width="115" height="43" rx="7" fill="#18343d" stroke="#679f9e"/>
+<path d="M1185 233L1192 239L1203 227" fill="none" stroke="#7ce0d2" stroke-width="2.5"/>
+<text x="1214" y="244" font-family="Arial, Helvetica, sans-serif" fill="#c8d9dc" font-size="12" letter-spacing=".3">EVIDENCE</text>
+<path d="M787 267H1286" stroke="#31525e"/>
+<text x="789" y="289" font-family="Arial, Helvetica, sans-serif" fill="#8aa9b4" font-size="12" letter-spacing="1.4">UNDERSTAND SYSTEMS. VERIFY SECURITY.</text>
+<circle cx="1298" cy="32" r="4" fill="#6de0d4"/>
+</svg>
