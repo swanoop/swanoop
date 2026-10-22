@@ -19,3 +19,12 @@
 <p align="center">
   <sub>IEC 62443 · CLC/TS 50701 · OT risk &amp; assurance · Secure architecture · Security testing</sub>
 </p>
+
+## Engineering approach
+
+<p align="center">
+  <picture>
+    <source media="(max-width: 720px)" srcset="./assets/engineering-approach-mobile.svg" />
+    <img src="./assets/engineering-approach.svg" width="100%" alt="OT security engineering approach: Understand (systems, functions, assets, interfaces) → Assess (threats, vulnerabilities, likelihood, risk) → Engineer (architecture, controls, zones, conduits) → Assure (reviews, testing, evidence, residual risk)." />
+  </picture>
+</p>
